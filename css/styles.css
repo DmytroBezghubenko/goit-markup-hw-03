@@ -66,7 +66,9 @@ ol {
     align-items: center;
 }
 
-.header {}
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
 
 .header-nav {
     display: flex;
@@ -151,9 +153,9 @@ ol {
     background-color: #2E2F42;
 }
 
-.hero-cont {
-    padding-left: 316px;
-    padding-right: 316px;
+.herosection-container {
+    padding-left: 331px;
+    padding-right: 331px;
     text-align: center;
 }
 
@@ -196,6 +198,19 @@ ol {
 
 .features {
     padding: 120px 0;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
 }
 
 .features-caption {
@@ -251,12 +266,14 @@ ol {
 
 .team-list-item {
     background-color: #FFF;
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-list-photo {}
 
 .team-list-cont {
-    padding: 32px 16px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .team-list-caption {
@@ -336,7 +353,7 @@ ol {
 }
 
 .logo-footer {
-    display: block;
+    display: inline-block;
     margin-bottom: 16px;
 
     color: #4D5AE5;
